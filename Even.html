@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Even Number</title>
+</head>
+
+<body>
+    <script>
+        var size = parseInt(prompt("Enter the size of the Array: "));
+        let arr = [];
+        let arr2 = [];
+        for (let i = 0; i < size; i++) {
+            let x = prompt("Enter the Array Element: ");
+            arr.push(x);
+        }
+        for (let i = 0; i < size; i++) {
+            if ((arr[i] % 2) == 0) {
+                arr2.push(arr[i]);
+            }
+        }
+        alert("The Even Numbers: " + arr2);
+    </script>
+</body>
+
+</html>

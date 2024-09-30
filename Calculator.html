@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+
+        function sub(a, b) {
+            return a - b;
+        }
+
+        function mult(a, b) {
+            return a * b;
+        }
+
+        function div(a, b) {
+            return a / b;
+        }
+
+        var a = parseInt(prompt("Enter the Calculation: "));
+        var x = prompt("Enter the Calculation: ");
+        var b = parseInt(prompt("Enter the Calculation: "));
+
+        switch (x) {
+            case '+':
+                alert(add(a, b));
+                break;
+            case '-':
+                alert(sub(a, b));
+                break;
+            case '*':
+                alert(mult(a, b));
+                break;
+            case '/':
+                alert(div(a, b));
+                break;
+            default:
+                alert("Invalid operator");
+                break;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Largest Number</title>
+</head>
+
+<body>
+    <script>
+        let arr = [45, 9, 0, 24, 25, 33];
+        var max = arr[0];
+        for (let i = 1; i < 6; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+            }
+        }
+        document.write("Highest value: ", max);
+    </script>
+</body>
+
+</html>
